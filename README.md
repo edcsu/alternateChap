@@ -44,7 +44,7 @@ You can change the port in the package.json file where;
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-  #  "json": "json-server data.js -p 3500 -m authMiddleware.js"
+  #  "json": "json-server restData.js -p 5000 "
     },
     ...
 
