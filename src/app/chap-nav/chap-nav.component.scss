@@ -24,7 +24,9 @@
 }
 
 .mat-nav-list a.active {
-  background: rgb(234, 240, 238); color: black;
+  background: rgb(234, 240, 238); 
+  // color: black;
+  color:#F73233 !important;
 }
 
 .hidden {
