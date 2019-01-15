@@ -24,9 +24,13 @@
 }
 
 .mat-nav-list a.active {
-  background: turquoise;
+  background: rgb(234, 240, 238); color: black;
 }
 
 .hidden {
   display: none;
+}
+
+.tooltip-red {
+    color: #F73233;
 }

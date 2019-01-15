@@ -41,6 +41,8 @@ import { ChapProductCountComponent } from './chap-product-count/chap-product-cou
 import { ChapCategoryCountComponent } from './chap-category-count/chap-category-count.component';
 import { StoreFirstGuard } from './storeFirst.guard';
 import { ChapOrderTableComponent } from './chap-order-table/chap-order-table.component';
+import { ChapDistChatComponent } from './chap-dist-chat/chap-dist-chat.component';
+import { ChapDistChatListComponent } from './chap-dist-chat-list/chap-dist-chat-list.component';
 
 // added icons to library for all access in all components
 library.add(faFacebook, faTwitter, faWhatsapp, faLinkedin, faEnvelope);
@@ -72,7 +74,10 @@ library.add(faFacebook, faTwitter, faWhatsapp, faLinkedin, faEnvelope);
     ChapAddMemberComponent,
     ChapProductCountComponent,
     ChapCategoryCountComponent,
-    ChapOrderTableComponent
+    ChapOrderTableComponent,
+    ChapDistChatComponent,
+    ChapDistChatListComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -86,6 +91,9 @@ library.add(faFacebook, faTwitter, faWhatsapp, faLinkedin, faEnvelope);
     FontAwesomeModule
   ],
   providers: [StoreFirstGuard],
+  entryComponents: [
+                      ChapDistChatListComponent
+                    ],
   bootstrap: [AppComponent]
 })
 export class AppModule {

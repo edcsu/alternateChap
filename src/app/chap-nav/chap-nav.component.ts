@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
@@ -11,7 +11,9 @@ export interface Section {
 @Component({
   selector: 'app-chap-nav',
   templateUrl: './chap-nav.component.html',
-  styleUrls: ['./chap-nav.component.scss']
+  styleUrls: ['./chap-nav.component.scss'],
+ encapsulation: ViewEncapsulation.None,
+
 })
 export class ChapNavComponent {
 

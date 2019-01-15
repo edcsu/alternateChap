@@ -8,64 +8,109 @@
     [opened]="!(isHandset$ | async)">
     <mat-toolbar color="primary">Menu</mat-toolbar>
     <mat-nav-list >
-      <a [routerLink]="['/dashboard']" routerLinkActive="active" mat-list-item>
-        <span class="chap-red">
+      <a [routerLink]="['/dashboard']" 
+          routerLinkActive="active" 
+          mat-list-item
+          matTooltip="Shows a summary of key statistics"
+          matTooltipClass="tooltip-red"
+          aria-label="shows a red tooltip">
+        <span class="">
          <mat-icon>home</mat-icon>
           Dashboard
         </span>
       </a>
       
-      <a [routerLink]="['/stats']" routerLinkActive="active" mat-list-item>
-        <span class="chap-red">
+      <a [routerLink]="['/stats']" 
+          routerLinkActive="active" 
+          mat-list-item
+          matTooltip="Shows vital statistics in graphically"
+          matTooltipClass="tooltip-red"
+          aria-label="shows a red tooltip">
+        <span class="">
           <mat-icon>insert_chart_outlined</mat-icon>
           Statistics
         </span>
       </a>
       
-      <a [routerLink]="['/products']" routerLinkActive="active" mat-list-item>
-        <span class="chap-red">
+      <a [routerLink]="['/products']" 
+          routerLinkActive="active" 
+          mat-list-item
+          matTooltip="Shows info about your products"
+          matTooltipClass="tooltip-red"
+          aria-label="shows a red tooltip">
+        <span class="">
           <mat-icon>add_shopping_cart</mat-icon>
           Products
         </span>
       </a>
       
-      <a [routerLink]="['/inventory']" routerLinkActive="active" mat-list-item>
-        <span class="chap-red">
+      <a [routerLink]="['/inventory']" 
+          routerLinkActive="active" 
+          mat-list-item
+          matTooltip="Shows quantity of each of the products "
+          matTooltipClass="tooltip-red"
+          aria-label="shows a red tooltip">
+        <span class="">
           <mat-icon>shopping_basket</mat-icon>
            Inventory
         </span>
       </a>
 
-      <a [routerLink]="['/order']" routerLinkActive="active" mat-list-item>
-        <span class="chap-red">
+      <a [routerLink]="['/order']" 
+          routerLinkActive="active" 
+          mat-list-item
+          matTooltip="Manage orders sent in by distributors"
+          matTooltipClass="tooltip-red"
+          aria-label="shows a red tooltip">
+        <span class="">
           <mat-icon>description</mat-icon>
           Order
         </span>
       </a>
       
-      <a [routerLink]="['/admin']" routerLinkActive="active" mat-list-item>
-        <span class="chap-red">
+      <a [routerLink]="['/admin']" 
+          routerLinkActive="active" 
+          mat-list-item
+          matTooltip="Manage your application"
+          matTooltipClass="tooltip-red"
+          aria-label="shows a red tooltip">
+        <span class="">
           <mat-icon>account_circle</mat-icon>
           Admin
         </span>
       </a>
       
-      <a [routerLink]="['/settings']" routerLinkActive="active" mat-list-item>
-        <span class="chap-red">
+      <a [routerLink]="['/settings']" 
+          routerLinkActive="active" 
+          mat-list-item
+          matTooltip="Customise your experience"
+          matTooltipClass="tooltip-red"
+          aria-label="shows a red tooltip">
+        <span class="">
           <mat-icon>settings</mat-icon>
           Settings
         </span>
       </a>
       
-      <a [routerLink]="['/help']" routerLinkActive="active" mat-list-item>
-        <span class="chap-red">
+      <a [routerLink]="['/help']" 
+          routerLinkActive="active" 
+          mat-list-item
+          matTooltip="When stuck click here"
+          matTooltipClass="tooltip-red"
+          aria-label="shows a red tooltip">
+        <span class="">
           <mat-icon>help_outline</mat-icon>
           Help
         </span>
       </a>
       
-      <a [routerLink]="['/monitor']" routerLinkActive="active" mat-list-item>
-        <span class="chap-red">
+      <a [routerLink]="['/monitor']" 
+          routerLinkActive="active" 
+          mat-list-item
+          matTooltip="Shows real time interaction "
+          matTooltipClass="tooltip-red"
+          aria-label="shows a red tooltip">
+        <span class="">
           <mat-icon>visibility</mat-icon>
           Monitoring Panel
         </span>
